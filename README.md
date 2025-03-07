@@ -29,9 +29,13 @@ These features are then fed into two pre-trained machine learning models:
    Implements a neural network using Keras/TensorFlow. With non-linear activation functions and one or more hidden layers, it effectively captures complex relationships in the feature set.
 ---
 ## Dataset
+This dataset was sourced from the Hugging Face repository maintained by InfinitodeLTD under the PWLDS project. It comprises a comprehensive collection of password samples gathered from a variety of public sources and curated to represent a wide range of password characteristics—from very weak and common choices to more complex and secure combinations. The dataset is designed to support research and development in password strength estimation, cybersecurity analytics, and machine learning applications, offering real-world examples that can help in training models to recognize and categorize password robustness.
 
-The dataset was collected from https://huggingface.co/datasets/InfinitodeLTD/PWLDS
+By leveraging this dataset, developers and researchers can analyze password patterns, evaluate the effectiveness of security policies, and build predictive models that assess the strength of a given password based on features like length, character diversity, and entropy. The availability of such a diverse dataset not only aids in benchmarking security tools but also contributes to the broader understanding of password vulnerabilities in real-world scenarios.
 
+For further details—including data format, usage guidelines, and licensing information—please refer to the original dataset page on Hugging Face at https://huggingface.co/datasets/InfinitodeLTD/PWLDS.
+
+---
 ## Features
 
 - **Robust Performance:**  
