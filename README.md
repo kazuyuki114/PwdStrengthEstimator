@@ -28,10 +28,9 @@ These features are then fed into two pre-trained machine learning models:
 2. **MLP Model:**  
    Implements a neural network using Keras/TensorFlow. With non-linear activation functions and one or more hidden layers, it effectively captures complex relationships in the feature set.
 ---
-## Datasett
+## Dataset
 
 The dataset was collected from https://huggingface.co/datasets/InfinitodeLTD/PWLDS
----
 
 ## Features
 
