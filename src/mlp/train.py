@@ -12,7 +12,7 @@ from sklearn.metrics import accuracy_score, classification_report
 import pickle
 
 # Load Preprocessed Data
-data_path = "../../processed_data/processed_data.csv"
+data_path = "../,,/processed_data/processed_password_data.csv"
 df = pd.read_csv(data_path)
 
 # Separate Features & Labels
@@ -50,3 +50,6 @@ print(classification_report(y_test, y_pred))
 # Save the model with pickle
 with open('../../models/mlp_model.pkl', 'wb') as file:
     pickle.dump(model, file)
+
+with open('../../models/scaler.pkl', 'wb') as file:
+        pickle.dump(scaler, file)
