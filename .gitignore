@@ -1,0 +1,4 @@
+data/pwlds_full.csv
+processed_data/processed_data.csv
+.venv
+/processed_data/processed_password_data.csv
